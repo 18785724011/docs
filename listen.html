@@ -91,7 +91,10 @@
 </script>
     <button id="goodButton">获取商品信息</button>
     <script type="text/javascript">
-        document.getElementById('goodButton').addEventListener('click', listText);
+        document.getElementById('goodButton').addEventListener('click', e=>{
+            console.log('');
+            listText();
+        });
     </script>
 </body>
 </html>
