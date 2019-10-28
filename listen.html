@@ -42,6 +42,9 @@
                 console.log(data);
                 //  data为风格id
             });
+            
+            window.getPanoData(iframe, 'enterGyro');
+            
 // 切换风格
 //             window.getPanoData(iframe,{type: 'changeStyle', levelId, sceneId, styleId},function(data){
 //                 // console.log(data)
@@ -55,7 +58,7 @@
     
 </head>
 <body>
-<iframe width="100%" height="95%" frameborder="0" id="iframeDemo" src="https://www.kujiale.com/xiaoguotu/pano/3FO3264BOHTI" allowfullscreen></iframe>
+<iframe width="100%" height="95%" frameborder="0" id="iframeDemo" src="http://10.10.31.104:7000/xiaoguotu/pano/3FO3264BOHTI" allowfullscreen></iframe>
 <script type="text/javascript">
     (function(){
         var eventMap = {};
