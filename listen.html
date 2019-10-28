@@ -43,7 +43,9 @@
                 //  data为风格id
             });
             
-            window.getPanoData(iframe, 'enterGyro');
+            window.getPanoData(iframe, 'enterGyro', data=>{
+                console.log('enter gyro');
+            });
             
 // 切换风格
 //             window.getPanoData(iframe,{type: 'changeStyle', levelId, sceneId, styleId},function(data){
